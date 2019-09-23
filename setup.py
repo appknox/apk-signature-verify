@@ -6,10 +6,16 @@ from __future__ import absolute_import, unicode_literals
 from setuptools import setup
 from codecs import open
 from os import path
-from apkverify.metadata import __title__, __version__, __description__, __url__, __author__, __author_email__, __license__
 
 here = path.abspath(path.dirname(__file__))
 
+__title__ = 'ak-apkverify'
+__description__ = 'Appknox Fork - Jar Signature / APK Signature v2 verify with pure python (support rsa dsa ecdsa).'
+__url__ = 'https://github.com/shuxin/apk-signature-verify'
+__version__ = '0.1.1.1'
+__author__ = 'shuxin'
+__author_email__ = 'shuxin@users.noreply.github.com'
+__license__ = 'MIT License'
 
 with open(path.join(here, 'README.md'), 'r', encoding='utf-8') as f:
     readme = f.read()
